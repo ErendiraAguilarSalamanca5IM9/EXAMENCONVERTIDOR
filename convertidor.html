@@ -1,0 +1,32 @@
+<HTML>
+    <HEAD>
+        <TITLE>Calculadora con Servlet</TITLE>
+    </HEAD>
+    <BODY BGCOLOR = "white" TEXT="red" LINK="red" VLINK="brown">
+    <CENTER>
+        <HR style="color:pink; heigth:6px; width:500">
+        <FONT size=5>CONVERTIDOR A DOLARES Y YENES</FONT>
+        <HR style="color:pink;   heigth:6px;   width:500">
+        <BR>
+        <BR>
+        <FORM action='ConvertidorServlet'   method=POST>
+                
+            <BR>INTROCUCIR CANTIDAD EN PESOS<BR>   
+            <INPUT name="operando1" type="text">
+
+            <SELECT name="operacion">
+                <OPTION  name= "opci" value="1"   selected   >&nbsp;&nbsp;USD
+                    &nbsp;&nbsp;</OPTION>
+                <OPTION  name= "opci" value="2">&nbsp;&nbsp;YENES
+                    &nbsp;&nbsp;</OPTION>
+            </SELECT>
+            <BR>
+            <BR>
+            <input name="Calcular" value="Calcular" type="submit">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="limpiar" value="Limpiar" type="reset">
+        </FORM>
+    </CENTER>
+</BODY>
+</HTML>
+
